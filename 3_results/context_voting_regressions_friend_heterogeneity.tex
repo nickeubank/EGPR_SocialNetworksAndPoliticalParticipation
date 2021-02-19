@@ -1,0 +1,33 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                &\multicolumn{1}{c}{Pres}&\multicolumn{1}{c}{Pres}&\multicolumn{1}{c}{LC5Chair}&\multicolumn{1}{c}{LC5Chair}&\multicolumn{1}{c}{LC5Chair}&\multicolumn{1}{c}{LC5Chair}\\
+\midrule
+TPP (Union)     &  -0.0049         &    0.044         &    0.017         &    0.058         &   -0.010         &   -0.058         \\
+                &  (0.012)         &  (0.090)         &  (0.011)         &  (0.087)         &  (0.017)         &  (0.033)         \\
+Pres Vote Homogeneity&                  &     0.17         &                  &                  &                  &                  \\
+                &                  &   (0.25)         &                  &                  &                  &                  \\
+TPP X Vote Homogeneity&                  &    -0.10         &                  &                  &                  &                  \\
+                &                  &   (0.19)         &                  &                  &                  &                  \\
+LC5Chair Vote Homogeneity&                  &                  &                  &    -0.20         &                  &                  \\
+                &                  &                  &                  &   (0.20)         &                  &                  \\
+TPP X Vote Homogeneity&                  &                  &                  &   -0.083         &                  &                  \\
+                &                  &                  &                  &   (0.17)         &                  &                  \\
+LC5 Council Competitive&                  &                  &                  &                  &     0.31\sym{***}&                  \\
+                &                  &                  &                  &                  &  (0.054)         &                  \\
+TPP X LC5 Competitive&                  &                  &                  &                  &    0.040         &                  \\
+                &                  &                  &                  &                  &  (0.030)         &                  \\
+LC3 Competitive &                  &                  &                  &                  &                  &     0.10         \\
+                &                  &                  &                  &                  &                  &  (0.065)         \\
+TPP X LC3 Competitive&                  &                  &                  &                  &                  &     0.15\sym{**} \\
+                &                  &                  &                  &                  &                  &  (0.056)         \\
+\midrule
+Std of Block Voting&                  &     0.10         &                  &     0.13         &                  &                  \\
+Std of Competitiveness&                  &                  &                  &                  &     0.24         &     0.17         \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

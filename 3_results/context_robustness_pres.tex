@@ -1,0 +1,23 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Robustness for Pres Election\label{tablerobustnesspres}}
+\begin{tabular}{l*{7}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}\\
+                &\multicolumn{1}{c}{Basic}&\multicolumn{1}{c}{ELF}&\multicolumn{1}{c}{Educ}&\multicolumn{1}{c}{Size}&\multicolumn{1}{c}{Concentrate}&\multicolumn{1}{c}{W/16th}&\multicolumn{1}{c}{Village}\\
+\midrule
+TPP (Union)     &   0.0048         &   0.0020         &   0.0041         &   0.0016         &   0.0058         &   -0.027\sym{**} &   0.0012         \\
+                &  (0.023)         &  (0.023)         &  (0.024)         &  (0.031)         &  (0.026)         &  (0.012)         &  (0.032)         \\
+ELF             &                  &    -0.17         &                  &                  &                  &                  &                  \\
+                &                  &   (0.14)         &                  &                  &                  &                  &                  \\
+Educ            &                  &                  &   -0.036         &                  &                  &                  &                  \\
+                &                  &                  &   (0.21)         &                  &                  &                  &                  \\
+(Log) Network Size&                  &                  &                  &    0.030         &                  &                  &    -0.13         \\
+                &                  &                  &                  &   (0.18)         &                  &                  &   (0.13)         \\
+\midrule
+Observations    &       15         &       15         &       15         &       15         &        8         &       16         &       16         \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

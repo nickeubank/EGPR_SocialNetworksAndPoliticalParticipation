@@ -1,0 +1,19 @@
+
+
+global replication_root "/users/nick/dropbox/joint_projects/gapp/QJPS_ReplicationPackage_EGPR"
+
+set scheme plotplainblind, permanently
+
+do $replication_root/2_code/10_create_measures/30_calc_political_participation_index.do
+do $replication_root/2_code/10_create_measures/35_calc_behavioralgame_avgs.do
+do $replication_root/2_code/10_create_measures/40_merge_network_and_voting.do
+do $replication_root/2_code/20_analyze/10_summary_voting_figures.do
+do $replication_root/2_code/20_analyze/20_summary_simulation.do
+do $replication_root/2_code/20_analyze/30_voting_socialcontext_regression.do
+do $replication_root/2_code/20_analyze/35_voting_socialcontext_regression_recip.do
+do $replication_root/2_code/20_analyze/37_voting_socialcontext_heterogeneity.do
+do $replication_root/2_code/20_analyze/40_voting_socialcontext_robustness.do
+do $replication_root/2_code/20_analyze/50_networks_and_political_activity.do
+do $replication_root/2_code/20_analyze/60_networks_and_behavioralgames.do
+do $replication_root/2_code/20_analyze/65_voting_socialcontext_regression_withdrops.do
+do $replication_root/2_code/20_analyze/80_info_and_turnout.do

@@ -1,0 +1,20 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                &\multicolumn{1}{c}{Presidential}&\multicolumn{1}{c}{LC5 Chair}&\multicolumn{1}{c}{Pooled}\\
+\midrule
+Eqm Participation Index (Lender)&   0.0054         &    0.020\sym{*}  &   0.0054         \\
+                &  (0.011)         &  (0.010)         &  (0.011)         \\
+LC5 Election * Eqm Participation&                  &                  &    0.014         \\
+                &                  &                  & (0.0099)         \\
+LC5 Chair Election&                  &                  &    -0.34\sym{***}\\
+                &                  &                  &  (0.020)         \\
+\midrule
+Observations    &       15         &       15         &       30         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
